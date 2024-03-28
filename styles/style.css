@@ -174,3 +174,82 @@ h2{
     text-decoration: none;
     padding: 0.2em;
   }
+
+  .contact-options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 800px;
+    padding: 7px 37px;
+    background-color: #151721;
+  }
+
+  .contact-options-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .contact-option {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .contact-title {
+    margin-top: 6px;
+    color:#fff;
+    
+  }
+
+  .contact-description {
+    margin-top: 5px;
+    color: #d8d8d8;
+  }
+
+
+
+  .form-container {
+    background-color: #151721;
+    color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 800px;
+    margin-top: 0.5em;
+  }
+
+  .form-title {
+    align-self: center;
+  }
+
+  .form-input {
+    align-items: start;
+    background-color: #fff;
+    border-radius: 66px;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 7px 15px;
+  }
+
+  .form-input:first-of-type {
+    margin-top: 21px;
+  }
+
+  .form-input:last-of-type {
+    margin-top: 13px;
+  }
+
+  .form-button {
+    align-self: center;
+    background-color: #7b8ce5;
+    border-radius: 66px;
+    justify-content: center;
+    margin-top: 14px;
+    padding: 15px 21px;
+    white-space: nowrap;
+  }
