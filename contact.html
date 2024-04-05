@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <title>Contact | Robotiko</title>
 </head>
@@ -16,7 +16,7 @@
                 <figure>
                     <img class="img_responsive" src="images/logo.png">
                 </figure>
-                <h1>Robotiko</h1>
+                <p class="h1">Robotiko</p>
             </div>
                 <a>Home</a>
                 <a>About Us</a>
@@ -28,16 +28,21 @@
         <section class="contact-options-container">
             <div class="contact-options-row">
               <div class="contact-option">
-                <span class="icon-office"></span>
-                <h3 class="contact-title">In our office</h3>
+                <div class="contact-option-head-oneline">
+                  <span class="icon-office"></span>
+                  <h3 class="contact-title">In our office</h3>
+                </div>
+
                 <p class="contact-description">
                   Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus
                   vitae ut nulla lobortis. Risus duis bibendum.
                 </p>
               </div>
               <div class="contact-option">
+                <div class="contact-option-head-oneline">
                 <span class="icon-mail"></span>
                 <h3 class="contact-title">On our email</h3>
+              </div>
                 <p class="contact-description">
                   Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus
                   vitae ut nulla lobortis. Risus duis bibendum.
@@ -46,16 +51,20 @@
             </div>
             <div class="contact-options-row">
               <div class="contact-option">
+                <div class="contact-option-head-oneline">
                 <span class="icon-phone"></span>
                 <h3 class="contact-title">Via phone</h3>
+              </div>
                 <p class="contact-description">
                   Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus
                   vitae ut nulla lobortis. Risus duis bibendum.
                 </p>
               </div>
               <div class="contact-option">
+                <div class="contact-option-head-oneline">
                 <span class="icon-fill-out"></span>
                 <h3 class="contact-title">Form below</h3>
+              </div>
                 <p class="contact-description">
                   Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus
                   vitae ut nulla lobortis. Risus duis bibendum.
@@ -65,7 +74,7 @@
           </section>
 
           <form class="form-container">
-            <h2 class="form-title">The form</h2>
+            <h1 class="form-title">The form</h1>
             
             <input type="text" id="name-input" class="form-input" placeholder="Enter your name" aria-label="Enter your name">
             
