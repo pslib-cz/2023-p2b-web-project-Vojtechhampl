@@ -106,7 +106,7 @@ h2{
     display: flex;
 }
 
-#bold{
+.bold{
     font-weight: bold;
     font-size: 1.1em;
 }
