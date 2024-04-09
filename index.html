@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,26 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Home | Robotiko</title>
 
 </head>
+
 <body>
     <header>
         <div class="header--responsive">
             <div class="logo">
                 <figure>
-                    <img class="img_responsive" src="images/logo.png" alt="logo of our company">
+                    <img class="img_responsive" src="images/logo.webp" alt="logo of our company">
                 </figure>
                 <h1 class="h1">Robotiko</h1>
             </div>
-                <a>Home</a>
-                <a>About Us</a>
-                <a>Services</a>
-                <a>Products</a>
+            <a>Home</a>
+            <a>About Us</a>
+            <a>Services</a>
+            <a>Products</a>
         </div>
     </header>
     <main id="main">
@@ -37,68 +42,88 @@
 
         <section class="features">
             <article class="feature">
-              <h3 class="feature-title">Automation</h3>
-              <p class="feature-description">
-                Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus vitae ut nulla lobortis. Risus duis bibendum.
-              </p>
+                <h3 class="feature-title">Automation</h3>
+                <p class="feature-description">
+                    Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus vitae ut nulla lobortis. Risus
+                    duis bibendum.
+                </p>
             </article>
             <article class="feature">
-              <h3 class="feature-title">Precision</h3>
-              <p class="feature-description">
-                Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus vitae ut nulla lobortis. Risus duis bibendum.
-              </p>
+                <h3 class="feature-title">Precision</h3>
+                <p class="feature-description">
+                    Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus vitae ut nulla lobortis. Risus
+                    duis bibendum.
+                </p>
             </article>
             <article class="feature">
-              <h3 class="feature-title">Accuracy</h3>
-              <p class="feature-description">
-                Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus vitae ut nulla lobortis. Risus duis bibendum.
-              </p>
+                <h3 class="feature-title">Accuracy</h3>
+                <p class="feature-description">
+                    Tincidunt nisi orci sodales non. Netus integer nunc mi nibh cursus vitae ut nulla lobortis. Risus
+                    duis bibendum.
+                </p>
             </article>
-          </section>
-          <h3>Our partners:</h3>
-          <section class="partners">
+        </section>
+        <h3>Our partners:</h3>
+        <section class="partners">
+
+
             
 
-            <section class="table">
-                <figure>
-                    <img class="img_responsive" src="images/logo1.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo2.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo3.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo4.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo5.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo6.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo7.png" alt="logo of our partner company">
-                </figure>
-                <figure>
-                    <img class="img_responsive" src="images/logo8.png" alt="logo of our partner company">
-                </figure>
-            </section>
-          </section>
-          <figure class="big--image__figure">
-            <img class="img_responsive big--image" src="images/cinan_obrazek.png" alt="our promotional photo">
-          </figure>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo1.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo2.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo3.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo4.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo5.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo6.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo7.webp" alt="logo of our partner company">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img_responsive" src="images/logo8.webp" alt="logo of our partner company">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </section>
+        <figure class="big--image__figure">
+            <img class="img_responsive big--image" src="images/cinan_obrazek.webp" alt="our promotional photo">
+        </figure>
     </main>
     <footer>
         <div class="footer--responsive">
             <div class="logo">
                 <figure>
-                    <img class="img_responsive" src="images/logo.png" alt="logo of our company">
+                    <img class="img_responsive" src="images/logo.webp" alt="logo of our company">
                 </figure>
                 <h2>Robotiko</h2>
             </div>
-            
+
             <div class="footer--col">
                 <p class="bold">Company</p>
                 <p>About</p>
@@ -115,4 +140,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -27,17 +27,15 @@ figure{
     width: 10em;
     align-self:center;
 }
-.table{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
-.partners{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x:scroll;
-    flex-shrink: 0;
-}
+
+
+
+
 header{
     align-items: center;
 }
